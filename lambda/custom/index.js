@@ -8,11 +8,11 @@ const cookbook = require('./alexa-cookbook.js');
 //TODO: The items below this comment need your attention.
 //=========================================================================================================================================
 
-const SKILL_NAME = 'Space Facts';
+const SKILL_NAME = 'Scala Facts';
 const GET_FACT_MESSAGE = 'Here\'s your fact: ';
-const HELP_MESSAGE = 'You can say tell me a space fact, or, you can say exit... What can I help you with?';
+const HELP_MESSAGE = 'You can say tell me a scala fact, or, you can say exit... What can I help you with?';
 const HELP_REPROMPT = 'What can I help you with?';
-const FALLBACK_MESSAGE = 'The Space Facts skill can\'t help you with that.  It can help you discover facts about space if you say tell me a space fact. What can I help you with?';
+const FALLBACK_MESSAGE = 'The Scala Facts skill can\'t help you with that.  It can help you discover facts about scala if you say tell me a scala fact. What can I help you with?';
 const FALLBACK_REPROMPT = 'What can I help you with?';
 const STOP_MESSAGE = 'Goodbye!';
 
@@ -21,19 +21,28 @@ const STOP_MESSAGE = 'Goodbye!';
 //=========================================================================================================================================
 
 const data = [
-  'A year on Mercury is just 88 days long.',
-  'Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.',
-  'Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.',
-  'On Mars, the Sun appears about half the size as it does on Earth.',
-  'Earth is the only planet not named after a god.',
-  'Jupiter has the shortest day of all the planets.',
-  'The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.',
-  'The Sun contains 99.86% of the mass in the Solar System.',
-  'The Sun is an almost perfect sphere.',
-  'A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.',
-  'Saturn radiates two and a half times more energy into space than it receives from the sun.',
-  'The temperature inside the Sun can reach 15 million degrees Celsius.',
-  'The Moon is moving approximately 3.8 cm away from our planet every year.',
+  'Scala interpreter is the easiest way to get started with the language.',
+  'Scala interpreter is an interactive shell for writing programs and expressions.',
+  'Any computable statement is an expression in Scala.',
+  'If an expression does not have anything to return, it returns a value of type Unit.',
+  'The keyword val is used to declare values.',
+  'Values are immutable. We cannot reassign the value.',
+  'The keyword var is used to declare variables.',
+  'We do not use the return keyword to return the result. Rather, a method returns the value of the last expression evaluated.',
+  'If a method does not take any parameters, we may omit the parentheses during definition and invocation. Additionally, we may omit the braces if the body has only one expression.',
+  'Control structures allow us to alter the flow of control in a program. We have the following control structures: If-else expression, While loop and do while loop, For expression, Try expression and Match expression.',
+  'Unlike Java, Scala does not have continue or break keywords.',
+  'Scala does not have have the ternary operator.',
+  'For expression can iterate over single or multiple collections. Moreover, it can filter out elements as well as produce new collections.',
+  'We can define functions inside functions. They are referred to as nested functions or local functions. Similar to the local variables, they are visible only within the function they are defined in.',
+  'We refer to functions which operate on functions as higher-order functions. They enable us to work at a more abstract level. Using them, we can reduce code duplication by writing generalized algorithms.',
+  'Higher-Order functions tend to create many small single-use functions. We can avoid naming them by using anonymous functions.',
+  'Scala uses by-value parameters by default. If the parameter type is preceded by arrow ( =>), it switches to by-name parameter.',
+  'Traits correspond to Java interfaces with some differences. They can extend from a class, access superclass members and  initializer statements.',
+  'Classes, objects, and traits can inherit at most one class but any number of traits.',
+  'We use object definitions to implement utility methods and singletons.',
+  'We do not have static members in Scala. We use companion objects to implement static members.',
+  'Pattern matching matches an expression to a sequence of alternatives.',
 ];
 
 //=========================================================================================================================================
